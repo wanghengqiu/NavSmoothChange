@@ -10,11 +10,19 @@
 		810EB96A1EA5AF89004F2083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9691EA5AF89004F2083 /* main.m */; };
 		810EB96D1EA5AF89004F2083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB96C1EA5AF89004F2083 /* AppDelegate.m */; };
 		810EB9701EA5AF89004F2083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB96F1EA5AF89004F2083 /* ViewController.m */; };
-		810EB9731EA5AF89004F2083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810EB9711EA5AF89004F2083 /* Main.storyboard */; };
 		810EB9751EA5AF89004F2083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810EB9741EA5AF89004F2083 /* Assets.xcassets */; };
-		810EB9781EA5AF89004F2083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810EB9761EA5AF89004F2083 /* LaunchScreen.storyboard */; };
 		810EB9831EA5AF89004F2083 /* TestNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9821EA5AF89004F2083 /* TestNavTests.m */; };
 		810EB98E1EA5AF89004F2083 /* TestNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB98D1EA5AF89004F2083 /* TestNavUITests.m */; };
+		810EB99D1EA5B056004F2083 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB99C1EA5B056004F2083 /* MyNavigationController.m */; };
+		810EB9A01EA5B0D5004F2083 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB99F1EA5B0D5004F2083 /* BaseViewController.m */; };
+		810EB9A31EA5B0E6004F2083 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9A21EA5B0E6004F2083 /* HomeViewController.m */; };
+		810EB9A71EA5B219004F2083 /* UIColor+Extern.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9A61EA5B219004F2083 /* UIColor+Extern.m */; };
+		810EB9AA1EA5B21F004F2083 /* AppUtily.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9A91EA5B21F004F2083 /* AppUtily.m */; };
+		810EB9AD1EA5B3A2004F2083 /* UIImage+Extern.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9AC1EA5B3A2004F2083 /* UIImage+Extern.m */; };
+		810EB9B01EA5B5A8004F2083 /* UINavigationBar+BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9AF1EA5B5A8004F2083 /* UINavigationBar+BackView.m */; };
+		810EB9B31EA5EA73004F2083 /* ShouyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9B21EA5EA73004F2083 /* ShouyeViewController.m */; };
+		810EB9C41EA60359004F2083 /* UIViewController+navColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9C31EA60359004F2083 /* UIViewController+navColor.m */; };
+		810EB9C71EA60430004F2083 /* UINavigationController+navColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 810EB9C61EA60430004F2083 /* UINavigationController+navColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +49,7 @@
 		810EB96C1EA5AF89004F2083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		810EB96E1EA5AF89004F2083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		810EB96F1EA5AF89004F2083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		810EB9721EA5AF89004F2083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		810EB9741EA5AF89004F2083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		810EB9771EA5AF89004F2083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810EB9791EA5AF89004F2083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810EB97E1EA5AF89004F2083 /* TestNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810EB9821EA5AF89004F2083 /* TestNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavTests.m; sourceTree = "<group>"; };
@@ -51,6 +57,26 @@
 		810EB9891EA5AF89004F2083 /* TestNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810EB98D1EA5AF89004F2083 /* TestNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavUITests.m; sourceTree = "<group>"; };
 		810EB98F1EA5AF89004F2083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810EB99B1EA5B056004F2083 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		810EB99C1EA5B056004F2083 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		810EB99E1EA5B0D5004F2083 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		810EB99F1EA5B0D5004F2083 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		810EB9A11EA5B0E6004F2083 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		810EB9A21EA5B0E6004F2083 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		810EB9A51EA5B219004F2083 /* UIColor+Extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extern.h"; sourceTree = "<group>"; };
+		810EB9A61EA5B219004F2083 /* UIColor+Extern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extern.m"; sourceTree = "<group>"; };
+		810EB9A81EA5B21F004F2083 /* AppUtily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtily.h; sourceTree = "<group>"; };
+		810EB9A91EA5B21F004F2083 /* AppUtily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtily.m; sourceTree = "<group>"; };
+		810EB9AB1EA5B3A2004F2083 /* UIImage+Extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extern.h"; sourceTree = "<group>"; };
+		810EB9AC1EA5B3A2004F2083 /* UIImage+Extern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extern.m"; sourceTree = "<group>"; };
+		810EB9AE1EA5B5A8004F2083 /* UINavigationBar+BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackView.h"; sourceTree = "<group>"; };
+		810EB9AF1EA5B5A8004F2083 /* UINavigationBar+BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackView.m"; sourceTree = "<group>"; };
+		810EB9B11EA5EA73004F2083 /* ShouyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShouyeViewController.h; sourceTree = "<group>"; };
+		810EB9B21EA5EA73004F2083 /* ShouyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShouyeViewController.m; sourceTree = "<group>"; };
+		810EB9C21EA60359004F2083 /* UIViewController+navColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+navColor.h"; sourceTree = "<group>"; };
+		810EB9C31EA60359004F2083 /* UIViewController+navColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+navColor.m"; sourceTree = "<group>"; };
+		810EB9C51EA60430004F2083 /* UINavigationController+navColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+navColor.h"; sourceTree = "<group>"; };
+		810EB9C61EA60430004F2083 /* UINavigationController+navColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+navColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +127,21 @@
 		810EB9671EA5AF89004F2083 /* TestNav */ = {
 			isa = PBXGroup;
 			children = (
+				810EB9C11EA60326004F2083 /* 分类 */,
+				810EB9A41EA5B208004F2083 /* Tool */,
 				810EB96B1EA5AF89004F2083 /* AppDelegate.h */,
 				810EB96C1EA5AF89004F2083 /* AppDelegate.m */,
 				810EB96E1EA5AF89004F2083 /* ViewController.h */,
 				810EB96F1EA5AF89004F2083 /* ViewController.m */,
-				810EB9711EA5AF89004F2083 /* Main.storyboard */,
+				810EB99E1EA5B0D5004F2083 /* BaseViewController.h */,
+				810EB99F1EA5B0D5004F2083 /* BaseViewController.m */,
+				810EB99B1EA5B056004F2083 /* MyNavigationController.h */,
+				810EB99C1EA5B056004F2083 /* MyNavigationController.m */,
+				810EB9A11EA5B0E6004F2083 /* HomeViewController.h */,
+				810EB9A21EA5B0E6004F2083 /* HomeViewController.m */,
+				810EB9B11EA5EA73004F2083 /* ShouyeViewController.h */,
+				810EB9B21EA5EA73004F2083 /* ShouyeViewController.m */,
 				810EB9741EA5AF89004F2083 /* Assets.xcassets */,
-				810EB9761EA5AF89004F2083 /* LaunchScreen.storyboard */,
 				810EB9791EA5AF89004F2083 /* Info.plist */,
 				810EB9681EA5AF89004F2083 /* Supporting Files */,
 			);
@@ -138,6 +172,32 @@
 				810EB98F1EA5AF89004F2083 /* Info.plist */,
 			);
 			path = TestNavUITests;
+			sourceTree = "<group>";
+		};
+		810EB9A41EA5B208004F2083 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				810EB9A81EA5B21F004F2083 /* AppUtily.h */,
+				810EB9A91EA5B21F004F2083 /* AppUtily.m */,
+				810EB9A51EA5B219004F2083 /* UIColor+Extern.h */,
+				810EB9A61EA5B219004F2083 /* UIColor+Extern.m */,
+				810EB9AB1EA5B3A2004F2083 /* UIImage+Extern.h */,
+				810EB9AC1EA5B3A2004F2083 /* UIImage+Extern.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		810EB9C11EA60326004F2083 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				810EB9AE1EA5B5A8004F2083 /* UINavigationBar+BackView.h */,
+				810EB9AF1EA5B5A8004F2083 /* UINavigationBar+BackView.m */,
+				810EB9C21EA60359004F2083 /* UIViewController+navColor.h */,
+				810EB9C31EA60359004F2083 /* UIViewController+navColor.m */,
+				810EB9C51EA60430004F2083 /* UINavigationController+navColor.h */,
+				810EB9C61EA60430004F2083 /* UINavigationController+navColor.m */,
+			);
+			name = "分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				810EB9781EA5AF89004F2083 /* LaunchScreen.storyboard in Resources */,
 				810EB9751EA5AF89004F2083 /* Assets.xcassets in Resources */,
-				810EB9731EA5AF89004F2083 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810EB9A71EA5B219004F2083 /* UIColor+Extern.m in Sources */,
 				810EB9701EA5AF89004F2083 /* ViewController.m in Sources */,
+				810EB9A01EA5B0D5004F2083 /* BaseViewController.m in Sources */,
+				810EB99D1EA5B056004F2083 /* MyNavigationController.m in Sources */,
 				810EB96D1EA5AF89004F2083 /* AppDelegate.m in Sources */,
+				810EB9B01EA5B5A8004F2083 /* UINavigationBar+BackView.m in Sources */,
+				810EB9AA1EA5B21F004F2083 /* AppUtily.m in Sources */,
+				810EB9C41EA60359004F2083 /* UIViewController+navColor.m in Sources */,
+				810EB9C71EA60430004F2083 /* UINavigationController+navColor.m in Sources */,
+				810EB9B31EA5EA73004F2083 /* ShouyeViewController.m in Sources */,
 				810EB96A1EA5AF89004F2083 /* main.m in Sources */,
+				810EB9A31EA5B0E6004F2083 /* HomeViewController.m in Sources */,
+				810EB9AD1EA5B3A2004F2083 /* UIImage+Extern.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +377,6 @@
 			targetProxy = 810EB98A1EA5AF89004F2083 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		810EB9711EA5AF89004F2083 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				810EB9721EA5AF89004F2083 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		810EB9761EA5AF89004F2083 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				810EB9771EA5AF89004F2083 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		810EB9901EA5AF89004F2083 /* Debug */ = {
@@ -424,7 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.TestNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +486,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.TestNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -2,11 +2,14 @@
 //  AppDelegate.m
 //  TestNav
 //
-//  Created by 王恒求 on 2017/4/18.
-//  Copyright © 2017年 王恒求. All rights reserved.
+//  Created by 王恒求 on 2016/6/11.
+//  Copyright © 2016年 王恒求. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MyNavigationController.h"
+#import "HomeViewController.h"
+#import "ShouyeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+    
+    ShouyeViewController* vc=[[ShouyeViewController alloc]init];
+//    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+//    [[UINavigationBar appearance] setBarTintColor:HEX2RGB(kNavBackgroundColor)];
+//    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+//                                                           [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:21], NSFontAttributeName, nil]];
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    MyNavigationController* nav=[[MyNavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController=nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

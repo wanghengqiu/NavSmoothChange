@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UINavigationController+navColor.h
 //  TestNav
 //
 //  Created by 王恒求 on 2016/6/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UINavigationController (navColor)<UINavigationBarDelegate, UINavigationControllerDelegate>
 
 @end
-
